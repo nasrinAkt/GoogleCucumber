@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify DAY RANGE value result",
+        "description": "",
+        "id": ";verify-day-range-value-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4651686800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open google application",
+            "match": {
+              "location": "step1Class.open_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198692700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter google in search field",
+            "match": {
+              "location": "step1Class.enter_google_in_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4497046600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print day range value",
+            "match": {
+              "location": "step1Class.print_day_range_value()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Verify count of links",
+        "description": "",
+        "id": ";verify-count-of-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2818008700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open google application",
+            "match": {
+              "location": "step1Class.open_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1364125900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "count of links available in page",
+            "match": {
+              "location": "step1Class.count_of_links_available_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "count.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
